@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/auth/(.*)",
+      "destination": "/api/node_app.js"
+    },
+    {
+      "source": "/api/stocks/(.*)",
+      "destination": "/api/node_app.js"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

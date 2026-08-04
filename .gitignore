@@ -1,0 +1,75 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.venv
+.vercel
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.venv/
+backend_fastapi/.venv/
+
+# Database / local storage
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+backend_fastapi/data/
+
+# Build artifacts
+dist/
+build/
+
+# Dependency directories
+node_modules/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+backend_fastapi/models/refined_regcn/
+backend_fastapi/models/gcnattn/
+backend_fastapi/models/temp_saved_model/
+backend_fastapi/models/test_output.onnx
+backend_fastapi/models/test_in_process.onnx

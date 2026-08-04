@@ -1,0 +1,25 @@
+fastapi
+uvicorn
+gunicorn
+pydantic
+python-dotenv
+aiosqlite
+psycopg[binary]
+psycopg_pool
+langgraph
+langgraph-checkpoint-postgres
+langgraph-checkpoint-sqlite
+langchain-core
+langchain-groq
+duckduckgo-search
+ddgs
+httpx
+passlib[argon2]
+
+# ML / Prediction dependencies
+onnxruntime>=1.16.0
+numpy
+pandas
+vmdpy
+yfinance
+scipy
